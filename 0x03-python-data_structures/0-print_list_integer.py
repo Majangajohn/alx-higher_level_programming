@@ -10,4 +10,4 @@ my_list (list): A list of integers to be printed.
 def print_list_integer(my_list=[]):
 
     for numbers in my_list:
-        print("{:d}".format(numbers))
+        print("{:d}".format(numbers), end="\n")
