@@ -131,4 +131,4 @@ class Rectangle:
         """Deletes an instance of a class
         """
         print("{:s}".format("Bye rectangle..."))
-        type(self).number_of_instances -= 1 
+        type(self).number_of_instances -= 1
